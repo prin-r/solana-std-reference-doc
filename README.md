@@ -10,9 +10,10 @@ The price data originates from [data requests](https://github.com/bandprotocol/b
 
 For example
 
-- AAPL/USD
-- GOOGL/USD
-- TSLA/USD
+- BTC/USD
+- ETH/USD
+- BAND/USD
+- SOL/USD
 
 These prices are automatically updated every 5 minutes. The [std_reference_basic](https://explorer.solana.com/address/GcSkynL9Emy5fPVnhR2rEJJjiXwGKGa4euSdPZEGRFHM?cluster=devnet) itself is currently deployed on Solana devnet at [`GcSkynL9Emy5fPVnhR2rEJJjiXwGKGa4euSdPZEGRFHM`](https://explorer.solana.com/address/GcSkynL9Emy5fPVnhR2rEJJjiXwGKGa4euSdPZEGRFHM?cluster=devnet).
 
@@ -53,7 +54,7 @@ The code below shows an example of a relatively [simple_price_database](https://
 
 ```
 
-The contract is able to store exchange rate of any price pair that available on the [std_reference_basic](https://explorer.solana.com/address/GcSkynL9Emy5fPVnhR2rEJJjiXwGKGa4euSdPZEGRFHM?cluster=devnet) contract. For more information on what oracle scripts are and how data requests work on BandChain in general, please see their [wiki](https://github.com/bandprotocol/bandchain/wiki/System-Overview#oracle-data-request) and [developer documentation](https://docs.bandchain.org/dapp-developers/requesting-data-from-bandchain)
+The contract is able to store exchange rate of any price pair that available on the [std_reference_basic](https://explorer.solana.com/address/GcSkynL9Emy5fPVnhR2rEJJjiXwGKGa4euSdPZEGRFHM?cluster=devnet) contract. For more information on what oracle scripts are and how data requests work on BandChain in general, please see their [wiki](https://github.com/bandprotocol/bandchain/wiki/System-Overview#oracle-data-request) and [developer documentation](https://docs.bandchain.org/)
 
 ## Code Breakdown
 
